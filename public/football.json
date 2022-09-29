@@ -1,0 +1,56 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "category": "Football",
+        "name": "Running",
+        "for_age": "7-21",
+        "time_required": 90,
+        "description": "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot.",
+        "img": "https://www.fcbarcelonanoticias.com/uploads/s1/12/05/80/8/fcb-entreno86.jpeg"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "category": "Dribbling",
+        "name": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
+        "for_age": "7-19",
+        "time_required": 50,
+        "description": "Dribbling is maneuvering a ball by one player while moving in a given direction.",
+        "img": "http://www.football-nut.co.uk/wp-content/uploads/2013/12/football-dribbling.jpg"
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "category": "Football",
+        "name": "Free Kick",
+        "for_age": "7-17",
+        "time_required": 70,
+        "description": "A free kick is a method in football. It is awarded after an infringement of the laws by the opposing team.",
+        "img": "https://resources.premierleague.com/premierleague/photo/2018/05/05/33e7c3a4-ad56-44b8-bff0-c827f75d59b7/2018-05-05T182155Z_1241405772_RC1A4EBF3360_RTRMADP_3_SOCCER-ENGLAND-EVE-SOU.JPG"
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "category": "Football",
+        "name": "Penalty",
+        "for_age": "7-23",
+        "time_required": 90,
+        "description": "when a team commits an infraction against the rules of the game a penalty will be assessed.",
+        "img": "https://media.newyorker.com/photos/5b2524c940328426ed9a8e68/16:9/w_2560,h_1440,c_limit/Phillips-MessiPenaltyKick.jpg"
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "category": "Football",
+        "name": "Header",
+        "for_age": "7-25",
+        "time_required": 60,
+        "description": "A header is a technique in football to control the ball using the head to pass, shoot or clear.",
+        "img": "https://staticg.sportskeeda.com/wp-content/uploads/2013/10/168030256-1971822.jpg"
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "category": "Football",
+        "name": "Throw-in",
+        "for_age": "7-27",
+        "time_required": "50s",
+        "description": "A throw-in is a method of restarting play in a game when the ball has exited the side of the field of play.",
+        "img": "https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/05/thumb_104386_default_news_size_5.jpeg"
+    }
+]
