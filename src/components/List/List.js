@@ -17,6 +17,16 @@ const List = () => {
                     <h6>Weight: 57KG</h6>
                 </div>
             </div>
+            <div>
+                <h3>Add a Break</h3>
+                <div className='break'>
+                    <button className='btn-break'><h6>10<small>s</small></h6></button>
+                    <button className='btn-break'><h6>20<small>s</small></h6></button>
+                    <button className='btn-break'><h6>30<small>s</small></h6></button>
+                    <button className='btn-break'><h6>40<small>s</small></h6></button>
+                    <button className='btn-break'><h6>50<small>s</small></h6></button>
+                </div>
+            </div>
         </div>
     );
 };

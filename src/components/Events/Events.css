@@ -1,6 +1,6 @@
 .events {
-    width: 300px;
-    height: 510px;
+    width: 310px;
+    height: 550px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
@@ -29,5 +29,20 @@
     font-weight: 400;
     line-height: 25px;
     margin-top: 7px;
+}
 
+.btn-event {
+    width: 100%;
+    background: rgb(34, 136, 114);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-event:hover {
+    background-color: aquamarine;
 }

@@ -13,6 +13,9 @@ const Events = ({ event }) => {
                 <h5>Time Required: {time_required}s</h5>
             </div>
 
+            <button className='btn-event'>
+                <p className='btn-text'>Add to List</p>
+            </button>
         </div>
     );
 };
