@@ -20,7 +20,7 @@
 
 .btn-break {
     background-color: rgb(34, 136, 114);
-    padding: 0 10px;
+    padding: 0 9px;
     border: 0;
     border-radius: 3px;
     margin: 0 3px;
@@ -28,4 +28,10 @@
 
 .btn-break:hover {
     background-color: aquamarine;
+}
+
+.time {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 5px;
 }
