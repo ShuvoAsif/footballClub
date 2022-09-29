@@ -49,7 +49,7 @@
         "category": "Football",
         "name": "Throw-in",
         "for_age": "7-27",
-        "time_required": "50s",
+        "time_required": 50,
         "description": "A throw-in is a method of restarting play in a game when the ball has exited the side of the field of play.",
         "img": "https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/05/thumb_104386_default_news_size_5.jpeg"
     }

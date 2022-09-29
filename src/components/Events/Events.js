@@ -7,10 +7,10 @@ const Events = ({ event }) => {
         <div className='events'>
             <img src={img} alt="" />
             <div className='event-info'>
-                <p className='event-name'>{name}</p>
+                <h5 className='event-name'>{name}</h5>
                 <p><small>Description: {description}</small></p>
-                <p><small>For Age: {for_age}</small></p>
-                <p>Time Required: {time_required}s</p>
+                <p>For Age: {for_age}</p>
+                <h5>Time Required: {time_required}s</h5>
             </div>
 
         </div>
