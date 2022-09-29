@@ -3,8 +3,8 @@
     grid-template-columns: 4fr 1fr;
 }
 
-.cart-container {
-    background-color: rgba(255, 153, 0, 0.3);
+.list-container {
+    background-color: rgba(68, 148, 171, 0.3);
     padding: 30px 15px;
 }
 

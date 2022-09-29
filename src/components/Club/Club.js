@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Events from '../Events/Events'
+import List from '../List/List';
 import './Club.css'
 
 const Club = () => {
@@ -22,8 +23,8 @@ const Club = () => {
                 }
 
             </div>
-            <div>
-                <h1>this is list</h1>
+            <div className='list-container'>
+                <List></List>
 
             </div>
         </div>
