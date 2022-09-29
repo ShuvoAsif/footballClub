@@ -4,6 +4,11 @@ import './List.css';
 const List = ({ eTime }) => {
     console.log(eTime)
 
+
+    const handleAlart = () => {
+        alert("You are complited succesfully");
+    }
+
     const [breakTime, setBreakTime] = useState([0]);
     const handleSetBreakTime = (time) => {
         const selectedBreakTime = time;
@@ -16,6 +21,8 @@ const List = ({ eTime }) => {
     for (const time of eTime) {
         total = total + time.time_required * time.quantity;
     }
+
+
 
 
     return (
@@ -47,6 +54,7 @@ const List = ({ eTime }) => {
                 <h3>Exercise Details</h3>
                 <h5 className='time'>Exercise Time: {total} S</h5>
                 <h5 className='time'>Break Time: {breakTime} S</h5>
+                <button onClick={() => handleAlart()} className='btn'><h3>Activity Completed</h3></button>
             </div>
         </div>
     );
