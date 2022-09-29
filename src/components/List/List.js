@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
 import './List.css';
 
-const List = () => {
+const List = ({ eTime }) => {
+    console.log(eTime)
+
     const [breakTime, setBreakTime] = useState([0]);
-
-
     const handleSetBreakTime = (time) => {
         const selectedBreakTime = time;
         const newBreakTime = [selectedBreakTime];
         setBreakTime(newBreakTime);
         console.log(selectedBreakTime)
+    }
+
+    let total = 0;
+    for (const time of eTime) {
+        total = total + time.time_required * time.quantity;
     }
 
 
@@ -40,7 +45,7 @@ const List = () => {
             </div>
             <div>
                 <h3>Exercise Details</h3>
-                <h5 className='time'>Exercise Time: <small></small>s</h5>
+                <h5 className='time'>Exercise Time: {total} S</h5>
                 <h5 className='time'>Break Time: {breakTime} S</h5>
             </div>
         </div>

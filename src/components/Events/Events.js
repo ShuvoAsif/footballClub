@@ -1,7 +1,7 @@
 import React from 'react';
 import './Events.css'
 
-const Events = ({ event }) => {
+const Events = ({ event, handleSetETime }) => {
     const { name, img, description, for_age, time_required } = event;
     return (
         <div className='events'>
@@ -13,7 +13,7 @@ const Events = ({ event }) => {
                 <h5>Time Required: {time_required}s</h5>
             </div>
 
-            <button className='btn-event'>
+            <button onClick={() => handleSetETime(event)} className='btn-event'>
                 <p className='btn-text'>Add to List</p>
             </button>
         </div>
