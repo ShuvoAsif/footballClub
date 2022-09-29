@@ -1,0 +1,33 @@
+.events {
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.events img {
+    height: 286px;
+    width: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.event-info {
+    margin: 0 14px;
+}
+
+.event-info p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.event-name {
+    font-family: 'Lato';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 7px;
+
+}
